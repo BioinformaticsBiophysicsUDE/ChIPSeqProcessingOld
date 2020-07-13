@@ -300,17 +300,5 @@ fi
 #-----------------------------------------------------------------
 rm TMP_DIR=$TMP_LOG
 
-echo $ALN_OUT
-echo $SAMSE_OUT
-echo $INPUT_FILE
-if [ "$TRIM" = "1" ]
-        then
-        echo ${TRIM_OUT}.fastq
-fi
-echo ${QUAL_OUT}.fastq
-echo ${QUAL_OUT}.bai
-echo $MQ_OUT
-echo ${MQ_OUT}.bai
-
 date 2>&1>>$LOG
 
