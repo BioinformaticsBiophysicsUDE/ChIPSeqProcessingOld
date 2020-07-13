@@ -1,0 +1,19 @@
+WD+<directory of the input file>
+FILE+<inpu file>
+THREADS+10
+RG+<Read Group> 
+TRIM+1
+TRIM_CO+60
+MEAN_QUAL+20
+DIFF+4
+PRINSEQ+<path to prinseq-lite>
+BWA+<path to bwa>
+PICARD+<path to picard-tools>
+FASTQX+<path to fastqx> 
+REF_GENOME+<reference chromosome index file with fullpath>
+SAMTOOLS+<path to samtools>
+QUALIMAP+/home/nfs_data/lange/chip-seq/tools/qualimap_v2.1/qualimap
+BAM_QUALI+30
+TMP+/home/nfs_data/lange/chip-seq/temp
+FASTQC+<path>fastqc
+TMP_DIR+<tmp dir>
