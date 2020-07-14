@@ -3,6 +3,7 @@
 ## requirements
 
 the script requires the following programs
+
 bwa
 
 prinseq-lite
