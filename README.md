@@ -4,11 +4,17 @@
 
 the script requires the following programs
 bwa
+
 prinseq-lite
+
 fastqc
+
 samtools
+
 qualimap
+
 picard tools
+
 and an indexed mouse reference genome
 
 ## parameters
